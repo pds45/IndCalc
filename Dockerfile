@@ -2,5 +2,4 @@ FROM python:3
 
 ADD src /src
 
-CMD [ "python", "./src/CalcTests.py" ]
- 
+CMD [ "python", "./src/calctests.py" ]
