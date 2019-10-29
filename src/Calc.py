@@ -6,6 +6,10 @@ def subtraction(a, b):
     return a - b
 
 
+def multiply(a, b):
+    return a * b
+
+
 class Calc:
     result = 0
 
@@ -18,4 +22,8 @@ class Calc:
 
     def subtract(self, a, b):
         self.result = subtraction(a, b)
+        return self.result
+
+    def mul(self, a, b):
+        self.result = multiply(a, b)
         return self.result
